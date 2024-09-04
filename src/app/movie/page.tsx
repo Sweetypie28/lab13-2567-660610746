@@ -5,7 +5,7 @@ export default function MoviePage() {
   return (
     <div>
       <p className="m-4 fw-bold fs-4 text-center">Top 10 Movies</p>
-      <div className="mx-auto vstack gap-2" style={{ width: "70%" }}>
+      <div className="mx-auto vstack gap-2" style={{ width: "75%" }}>
         {movieDB.map((movie, i) => (
           <MovieRow
             key={movie.id}
